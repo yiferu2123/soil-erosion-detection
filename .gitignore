@@ -1,0 +1,25 @@
+# Large data files
+*.xlsx
+*.xls
+*.csv
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model weights (large binaries — optional to include)
+# Uncomment below to also ignore model files:
+# *.pth
+# *.pkl
